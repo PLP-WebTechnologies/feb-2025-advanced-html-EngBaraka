@@ -1,0 +1,128 @@
+<HTml>
+    <head>
+        <title>THhis is my week 2 assignment</title>
+    </head>
+    <body>
+            <!-- ordered list -->
+
+        <ol>
+            <li>Baraka</li>
+            <li>Brian</li>
+            <li>Grace</li>
+            <li>Jane</li>
+            <li>Amos</li>
+        </ol>
+<img src="https://images.pexels.com/photos/14325401/pexels-photo-14325401.jpeg?auto=compress&cs=tinysrgb&w=600" alt="This is an image"
+style="height: 250; width: 250;">     <!-- an external image from pexels.com -->
+
+    <!-- a table of 5 contacts with; name, address, mobile and emails -->
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Emails</th>
+    </tr>
+    <tr>
+        <td>Baraka</td>
+        <td>Nairobi 001</td>
+        <td>078987654</td>
+        <td><a href="mailto:amos@gmail.com">baraka@gmail.com</a></td>
+    </tr>
+    <tr>
+        <td>Brian</td>
+        <td>Nairobi 002</td>
+        <td>07647654</td>
+        <td><a href="mailto:amos@gmail.com">brian@gmail.com</a></td>
+    </tr>
+    <tr>
+        <td>Jnae</td>
+        <td>Nairobi 003</td>
+        <td>078987353</td>
+        <td><a href="mailto:amos@gmail.com">jane@gmail.com</a></td>
+    </tr>
+    <tr><td>Grace</td>
+        <td>Nairobi 004</td>
+        <td>071237654</td>
+        <td><a href="mailto:amos@gmail.com">grace@gmail.com</a></td>
+    </tr>
+    <tr>
+        <td>Amos</td>
+        <td>Nairobi 005</td>
+        <td>078981254</td>
+        <td><a href="mailto:amos@gmail.com">amos@gmail.com</a></td>
+    </tr>
+</table>
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form id="registrationForm" method="post">
+        <!-- Text Inputs -->
+        <div>
+            <label for="username">Full Name:</label>
+            <input type="text" id="username" name="username" 
+                   placeholder="Enter your full name" required>
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" 
+                   placeholder="example@domain.com" required>
+        </div>
+        
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" 
+                   placeholder="Minimum 8 characters" minlength="8" required>
+        </div>
+        
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        
+        <!-- Dropdown Menu -->
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+                <option value="rwanda">Rwanda</option>
+            </select>
+        </div>
+        
+        <!-- Radio Buttons -->
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+        
+        <!-- Checkboxes -->
+        <div>
+            <label>Interests:</label>
+            <input type="checkbox" id="tech" name="interests" value="tech">
+            <label for="tech">Technology</label>
+            
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            
+            <input type="checkbox" id="arts" name="interests" value="arts">
+            <label for="arts">Arts</label>
+        </div>
+        
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
+    </body>
+</HTml>
